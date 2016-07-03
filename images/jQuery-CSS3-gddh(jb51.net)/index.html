@@ -1,0 +1,84 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>jQuery单页面固定位置粘性滚动导航特效代码 - 代码笔记 www.198zone.com</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1 user-scalable=no">
+<link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet" type="text/css">
+<link href="css/demo.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.smint.js"></script>
+<script type="text/javascript">
+	
+
+$(document).ready( function() {
+    $('.subMenu').smint({
+    	'scrollSpeed' : 1000
+    });
+});
+
+
+</script>
+</head>
+
+<body onLoad="setTimeout(function() { window.scrollTo(0, 1) }, 100);">
+
+<div class="wrap">
+	<div class="subMenu">
+		<div class="inner">
+			<a href="#" id="sTop" class="subNavBtn">首页</a>
+			<a href="#" id="s1" class="subNavBtn">导航 1</a>
+			<a href="#" id="s2" class="subNavBtn">导航 2</a>
+			<a href="#" id="s3" class="subNavBtn">导航 3</a>
+			<a href="#" id="s4" class="subNavBtn">导航 4</a>
+			<a href="#" id="s5" class="subNavBtn end">导航 5</a> </div>
+	</div>
+	<div class="section sTop">
+		<div class="inner">
+        <div style="width:960px;margin:10px auto; clear:both; text-align:center;  ">
+
+		</div>
+		<br class="clear">
+	</div>
+	<div class="section s1">
+		<div class="inner">
+			<h1>导航 1</h1>
+            
+		</div>
+	</div>
+	<div class="section s2">
+		<div class="inner">
+			<h1>导航 2</h1>
+		</div>
+	</div>
+	<div class="section s3">
+		<div class="inner">
+			<h1>导航 3</h1>
+            <div style="width:960px;margin:10px auto; clear:both; text-align:center;  ">
+
+		</div>
+	</div>
+	<div class="section s4">
+		<div class="inner">
+			<h1>导航 4</h1>
+		</div>
+	</div>
+	<div class="section s5">
+		<div class="inner">
+			<h1>导航 5</h1>
+		</div>
+	</div>
+</div>
+             
+
+<div style="width:960px;margin:10px auto; clear:both; text-align:center;  ">
+
+<div style="width:960px;margin:20px auto; clear:both; text-align:center; font-size:12px; line-height:25px;    ">
+
+<a href="http://www.jb51.net"  style="color:#333"><strong>脚本之家整理</strong></a> </strong> 转载请自觉注明出处！注：此代码仅供学习交流，请勿用于商业用途。
+
+	
+</div>
+</body>
+
+</html>
